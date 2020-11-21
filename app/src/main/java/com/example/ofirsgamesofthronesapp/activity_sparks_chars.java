@@ -11,6 +11,8 @@ import java.util.List;
 
 public class activity_sparks_chars extends AppCompatActivity {
 
+    int images[] = {R.drawable.rickard_stark, R.drawable.lyarra_stark, R.drawable.catelyn_stark, R.drawable.ned_stark, R.drawable.brandon_stark, R.drawable.benjen_stark, R.drawable.lyanna_stark, R.drawable.rhaegar_targaryen, R.drawable.jon_snow, R.drawable.robb_stark, R.drawable.sansa_stark, R.drawable.arya_stark, R.drawable.rickon_stark};
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,7 +23,7 @@ public class activity_sparks_chars extends AppCompatActivity {
         recyclerView.setHasFixedSize(true); // For improved performance - saw in a video tutorial.
 
         List<String> starksListCharacters = Arrays.asList(getResources().getStringArray(R.array.stark_characters_names));
-        StarksAdapter adapter = new StarksAdapter(starksListCharacters);
+        StarksAdapter adapter = new StarksAdapter(starksListCharacters, images);
         recyclerView.setAdapter(adapter);
     }
 }

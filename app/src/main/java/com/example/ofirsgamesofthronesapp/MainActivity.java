@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button starksCharsButton = (Button)findViewById(R.id.starks_button);
+        Button starksCharsButton = (Button)findViewById(R.id.sparks_button);
         starksCharsButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
