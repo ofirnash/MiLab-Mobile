@@ -1,7 +1,6 @@
 package com.example.ex3_quotesapp;
 
 import android.os.Bundle;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Repeating_Activity extends AppCompatActivity {
