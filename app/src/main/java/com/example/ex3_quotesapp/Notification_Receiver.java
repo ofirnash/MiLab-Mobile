@@ -18,6 +18,7 @@ public class Notification_Receiver extends BroadcastReceiver {
     @RequiresApi(api = Build.VERSION_CODES.O)
     @Override
     public void onReceive(Context context, Intent intent) {
+        
         // Intent
         Intent repeatingIntent = new Intent(context, Repeating_Activity.class);
         repeatingIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP); // Replace old activity if still open.
