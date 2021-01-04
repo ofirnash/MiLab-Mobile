@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Ofirs Games of Thrones app</string>
+    <string name="hello_world" />
+    <string name="button">Button</string>
+    <string name="hello">Hello</string>
+    <string name="game_of_thrones_app">Game of Thrones App</string>
+    <string name="stark">Stark</string>
+    <string name="lannister">Lannister</string>
+    <string name="textview">TextView</string>
+    <string name="todo">TODO</string>
+
+    <string-array name="stark_characters_names">
+        <item>Rickard Stark</item>
+        <item>Lyarra Stark</item>
+        <item>Catelyn Stark</item>
+        <item>Ned Stark</item>
+        <item>Brandon Stark</item>
+        <item>Benjen Stark</item>
+        <item>Lyanna Stark</item>
+        <item>Rhaegar Targaryen</item>
+        <item>Jon Snow</item>
+        <item>Robb Stark</item>
+        <item>Sansa Stark</item>
+        <item>Arya Stark</item>
+        <item>Rickon Stark</item>
+    </string-array>
+
+    <string-array name="lannister_characters_names">
+        <item>Tytos Lannister</item>
+        <item>Tywin Lannister</item>
+        <item>Joanna Lannister</item>
+        <item>Kevan Lannister</item>
+        <item>Cersei Lannister</item>
+        <item>Jaime Lannister</item>
+        <item>Tyrion Lannister</item>
+        <item>Lancel Lannister</item>
+        <item>Willem Lannister</item>
+        <item>Martyn Lannister</item>
+        <item>Joffrey Lannister</item>
+        <item>Myrcella Lannister</item>
+        <item>Tommen Lannister</item>
+    </string-array>
+</resources>
