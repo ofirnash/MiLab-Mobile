@@ -15,6 +15,7 @@ app.get('/server/files/:fileName', (req, res) => {
 	}
 	
 	// Hardcoded path: server/files/...
+	// TODO: FIX TO PREVENT INJECTION! fileName='..' 
 	let filePath = "./files/" + fileName;
 	
 	// Check that file exists

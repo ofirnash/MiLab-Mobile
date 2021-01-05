@@ -7,10 +7,10 @@ let app = express();
 
 app.use(bodyParser.json());
 
+let dataFromJSON = JSON.parse(fs.readFileSync('data-tasks.json', 'utf8'));
+
 // See all tasks
 app.get('/tasks', (req, res) => {
-	let dataFromJSON = JSON.parse(fs.readFileSync('data-tasks.json', 'utf8'));
-	
 	// Send data to user
 	res.send(dataFromJSON);
 });
@@ -19,8 +19,6 @@ app.get('/tasks', (req, res) => {
 app.get('/tasks/new', (req, res) => {
 	let taskId = parseInt(req.query.id);
 	let task = req.query.task;
-	
-	let dataFromJSON = JSON.parse(fs.readFileSync('data-tasks.json', 'utf8'));
 	
 	// Add the task
 	dataFromJSON.tasks.push({'id': taskId, 'content': task});
@@ -33,8 +31,6 @@ app.get('/tasks/new', (req, res) => {
 // Delete added tasks
 app.get('/tasks/remove', (req, res) => {
 	let taskId = parseInt(req.query.id);
-
-	let dataFromJSON = JSON.parse(fs.readFileSync('data-tasks.json', 'utf8'));
 
 	// Find task by ID
 	let index = dataFromJSON.tasks.findIndex(x => x.id == taskId);
