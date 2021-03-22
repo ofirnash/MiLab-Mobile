@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Stocks-Firebase-Ex6</string>
+    <string name="default_notification_channel_id">1</string>
+    <string name="server_ip_address">http://192.168.1.22:8080/</string>
+</resources>

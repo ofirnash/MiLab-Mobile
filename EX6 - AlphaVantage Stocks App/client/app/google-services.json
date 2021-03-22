@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "987721720724",
+    "project_id": "stocks-monitor-26dda",
+    "storage_bucket": "stocks-monitor-26dda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987721720724:android:23a7775f39c649aaf26581",
+        "android_client_info": {
+          "package_name": "com.example.stocks_firebase_ex6"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "987721720724-qrj75q1pqd8mv0rikh3tgl6a054t3rnt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChYUW1Q8rbWog-ogWhl6EGUQuEx3e0xwM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "987721720724-qrj75q1pqd8mv0rikh3tgl6a054t3rnt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
